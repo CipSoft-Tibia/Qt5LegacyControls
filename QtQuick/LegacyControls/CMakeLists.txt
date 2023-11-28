@@ -6,10 +6,11 @@ set_source_files_properties(TextSingleton.qml PROPERTIES QT_QML_SINGLETON_TYPE T
 
 qt_add_qml_module(Qt5LegacyControls
   URI QtQuick.LegacyControls
-  VERSION 1.0.0
+  VERSION 1.0.2
   PLUGIN_TARGET Qt5LegacyControls
   OUTPUT_DIRECTORY ${QT5LEGACYCONTROLS_OUTPUT_DIR}
   SHARED
+  NO_LINT
   IMPORTS
     QtQml
     QtQuick
